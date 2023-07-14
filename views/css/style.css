@@ -1,0 +1,58 @@
+body {margin: 0;padding: 0;font-size: 14px;font-weight: 400;font-family: 'Poppins', sans-serif;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {margin: 0;}
+ul {list-style: none;padding: 0;margin: 0;}
+p {margin: 0;}
+button:hover {text-decoration: none;transition: .5s;}
+a:hover {text-decoration: none;transition: .5s;}
+button {transition: .8s;}
+.form-control:focus {box-shadow: none;}
+.container {max-width: 1170px;width: 100%;}
+button:focus {outline: none;}
+button {cursor: pointer;}
+.container{max-width: 1240px}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+ 
+-webkit-box-shadow: 0 0 0px 1000px #fff inset;
+ transition: background-color 5000s ease-in-out 0s;
+}
+
+
+/*====== change password page css start ==========*/
+.login.change-password {display: flex;}
+.login.change-password .login-left {width: 50%;height: 100vh;justify-content: center;display: flex;align-items: center;flex-direction: column;
+max-width: 600px;margin: auto;max-width: 50%;}
+.login.change-password .login-left-inner {width: 435px;}
+.login.change-password .login-left-inner .logi-logo {text-align: center;}
+.login.change-password .login-mid h3{font-size: 33px;color: #000000;text-align: center;font-weight: 600;margin-top: 60px;}
+.login.change-password .login-mid p{font-size: 16px;color: #8A92A6;text-align: center;margin-top: 16px;}
+.login.change-password .login-left .btn{width: 185px;height: 48px;background: #1C6768;border-radius: 4px;border: 0;margin: 50px auto 0;display: block;font-size: 16px;color: #fff;}
+.login.change-password .login-left .login-frame {position: absolute;left: 0;top: 0;}
+.login.change-password .login-left .login-frame img {max-width: 90%;}
+.login.change-password .input-group {position: relative;margin: 40px 0 20px;border: 1px solid #3A57E8;border-radius: 4px;}
+.login.change-password input {font-size: 16px;padding: 12px 13px;display: block;width: 300px;border: none;background: none;}
+.login.change-password input:focus {outline: none;}
+.login.change-password label {color: #999;font-size: 16px;font-weight: normal;position: absolute;pointer-events: none;left: 10px;top: 12px;transition: 0.2s ease all;
+-moz-transition: 0.2s ease all;-webkit-transition: 0.2s ease all;margin-bottom: 0;}
+.login.change-password .error {position: absolute;bottom: -25px;color: #f44336;}
+.login.change-password input:focus ~ label,
+.login.change-password input:valid ~ label {top: -12px;font-size: 14px;color: #8A92A6;background: #fff;}
+
+/*====== change password page css close ==========*/
+
+ 
+ 

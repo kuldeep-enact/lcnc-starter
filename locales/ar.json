@@ -1,0 +1,12 @@
+{ 
+	
+	"SIGNUP_SUCESSFULL":"سجل بنجاح",
+	"EMAIL_ALREADY_EXIST":"تم تسجيل البريد الإلكتروني بالفعل",
+	"INTERNAL_SERVER_ERROR":"خطأ في الخادم الداخلي",
+	"WRONG_EMAIL_PASSWORD":"بريد إلكتروني أو كلمة مرور خاطئة",
+	"LOGIN_SUCESSFULL":"نجاح تسجيل الدخول",
+	"SUBSCRIBED_SUCESSFULL":"اكتتبت بنجاح"
+	
+
+	
+}
